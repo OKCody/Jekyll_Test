@@ -11,3 +11,7 @@ github_username:  OKCody
 include: ['_pages']
 kramdown:
   input: GFM
+plugins:
+  - default_layout
+layouts:
+  default: default
