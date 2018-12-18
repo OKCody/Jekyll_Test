@@ -3,7 +3,7 @@ title: Start Jekyll
 email: codyalantaylor@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: "Jekyll_Test"
+baseurl: "/Jekyll_Test"
 twitter_username: OKCody_
 github_username:  OKCody
 # Build Settings
