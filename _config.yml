@@ -4,14 +4,16 @@ email: codyalantaylor@gmail.com
 description: >
   A guide to getting started with Jekyll.
 baseurl: ""
-url: "http://localhost:8000"
 twitter_username: OKCody_
 github_username:  OKCody
 # Build Settings
 include: ['_pages']
 kramdown:
   input: GFM
-plugins:
-  - default_layout
-layouts:
-  default: default
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
