@@ -15,7 +15,7 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "toc"
+      layout: "toc.html"
   -
     scope:
       path: "_pages/*"
