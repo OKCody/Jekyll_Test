@@ -7,17 +7,17 @@ baseurl: "/Jekyll_Test"
 twitter_username: OKCody_
 github_username:  OKCody
 # Build Settings
-include: ['_pages']
+#include: ['_pages']
 kramdown:
   input: GFM
 defaults:
   -
     scope:
-      path: "index.html"
+      path: ""
     values:
       layout: "toc"
   -
     scope:
-      path: "_pages/*"
+      path: "_pages"
     values:
       layout: "pages"
