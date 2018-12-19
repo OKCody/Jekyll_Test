@@ -6,7 +6,10 @@
 	{% include header.html %}
 	<main>
                 <div id='toc'>
-			<h2>Ah ha!</h2>
+			<h1>{{ title }}</h1>
+			<h2>{{ subtitle }}<h2>
+		        <h3>{{ author }}</h3>
+		        <h4>{{ license }}</h4>
 			{{ content }}
 		</div>
 		{% include footer.html %}
