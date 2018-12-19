@@ -1,5 +1,8 @@
 # Site Settings
 title: Start Jekyll
+subtitle: testing
+author: Cody Taylor
+license: CC BY
 email: codyalantaylor@gmail.com
 description: >
   A guide to getting started with Jekyll.
