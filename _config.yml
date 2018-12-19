@@ -13,7 +13,7 @@ kramdown:
 defaults:
   -
     scope:
-      path: "*/index.html"
+      path: "index.html"
     values:
       layout: "toc"
   -
