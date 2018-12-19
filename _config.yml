@@ -13,13 +13,11 @@ kramdown:
 defaults:
   -
     scope:
-      path: ""
-      type: "pages"
+      path: "index.html"
     values:
-      layout: "toc.html"
+      layout: "toc"
   -
     scope:
       path: "_pages/*"
-      type: "pages"
     values:
       layout: "pages"
