@@ -7,7 +7,7 @@ baseurl: "/Jekyll_Test"
 twitter_username: OKCody_
 github_username:  OKCody
 # Build Settings
-include: ['_pages']
+include: ['_pages', '']
 kramdown:
   input: GFM
 defaults:
