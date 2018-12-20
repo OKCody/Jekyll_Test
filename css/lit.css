@@ -6,6 +6,7 @@
 */
 
 :root {
+    --max-width: 40em;
     --header: "Arial Black";
     --font: Helvetica;
     --primary-color: #fa0;
@@ -65,7 +66,7 @@ a:hover,
 }
 
 .c {
-    max-width: 60em;
+    max-width: var(--max-width);
     padding: 1em;
     margin: auto;
     font: 1em/1.6 var(--font);
@@ -125,4 +126,9 @@ th {
     border: solid;
     font: .7em var(--font);
     cursor:pointer;
+}
+
+img{
+  max-width: 100%;
+  max-height: 500px;
 }
