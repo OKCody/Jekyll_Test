@@ -9,6 +9,8 @@ description: >
 baseurl: "/Jekyll_Test"
 twitter_username: OKCody_
 github_username:  OKCody
+plugins:
+  - jekyll-optional-front-matter
 # Build Settings
 include: ['_pages']
 kramdown:
