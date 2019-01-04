@@ -1,2 +1,4 @@
 _pages/*
 _site/*
+Gemfile.lock
+.DS_Store

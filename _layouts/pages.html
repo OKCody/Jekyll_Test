@@ -1,15 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 {% include head.html %}
 
 <body>
 	{% include header.html %}
 	<main>
+		{% if page.previous.url %}
+		<a id='prev' href="{{ page.previous.url }}"></a>
+		{% endif %}
 		<article>
 			{{ content }}
 		</article>
-		{% include footer.html %}
+		{% if page.next.url %}
+		<a id='next' href="{{ page.next.url }}"></a>
+		{% endif %}
 	</main>
+	{% include footer.html %}
 </body>
 
 </html>
