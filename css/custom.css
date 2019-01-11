@@ -52,6 +52,13 @@ img + em{
   width: calc((100% - 33em)/4);
   height: 100%;
   margin: 0px;
+  color: #EEE;
+  text-decoration: none;
+  padding-top: calc(50vh - 50px);
+  text-align: center;
+}
+.adv:hover{
+  color: #DDD;
 }
 #prev{
   left: 0px;
@@ -111,9 +118,14 @@ img + em{
   font-size: .7em;
   margin-top: .5em;
 }
-
+#nav #download{
+  margin-right: 1.5em;
+}
 /* Small Screen Rules*/
 @media screen and (max-width: 800px) {
+  main{
+    padding-bottom: 50px;
+  }
   article {
   }
   #nav{
@@ -148,6 +160,17 @@ img + em{
     text-decoration: none;
     font-size: 17px;
     margin: 0px;
+  }
+  .adv{
+    position: absolute;
+    top: initial;
+    bottom: 50px;
+    width: 50%;
+    height: 25px;
+    display: block;
+    margin-top: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
 

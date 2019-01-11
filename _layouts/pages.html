@@ -30,13 +30,13 @@
 	{% include header.html %}
 	<main>
 		{% if prev > 0 %}
-		  <a id='prev' class="adv" href="{{ prev }}.html"></a>
+		  <a id='prev' class="adv" href="{{ prev }}.html">◀</a>
 		{% endif %}
 		<article>
 			{{ content }}
 		</article>
 		{% if next < limit %}
-		  <a id='next' class="adv" href="{{ next }}.html"></a>
+		  <a id='next' class="adv" href="{{ next }}.html">▶</a>
 		{% endif %}
 	</main>
 	{% include footer.html %}
